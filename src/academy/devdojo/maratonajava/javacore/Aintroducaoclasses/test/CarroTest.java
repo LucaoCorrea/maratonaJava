@@ -14,6 +14,10 @@ public class CarroTest {
         carro2.modelo = "Sedan";
         carro2.ano = 2016;
 
+        //Referencia de objetos
+        carro1 = carro2;
+
+
         System.out.println(carro1.nome + " " + carro1.modelo + " " + carro1.ano);
         System.out.println(carro2.nome + " " + carro2.modelo + " " + carro2.ano);
     }
